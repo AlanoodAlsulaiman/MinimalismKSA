@@ -1,0 +1,328 @@
+/*******************************
+General
+********************************/
+img{
+  max-width: 100%;
+}
+#title{
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 1.75em;
+  margin:-5px 0 0;
+  font-weight: normal;
+  text-align:center;
+  margin-top: -160px;
+  font-family: 'Algreya Sans';
+}
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+nav a,nav a:visited {
+  color: black;
+}
+
+nav a.selected , nav a:hover{
+color:#94b8b8;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 20px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+nav a{
+  font-weight: bold;
+  padding: 15px 10px;
+  text-decoration: none;
+
+}
+#wrapper{
+max-width: 940px;
+margin:0 auto;
+padding: 0 5%;
+margin-right: 30px;
+
+}
+
+/*Aside menu*/
+aside{
+  /*border: 1px solid #ccc;*/
+  position: fixed;
+  top:100px;
+  left: 0;
+  bottom: 0;
+  width:200px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 300px;
+
+}
+.social-icons{
+  width:40px;
+  height:40px;
+  margin: 10px auto;
+
+}
+aside a .social-icons{
+  position: relative;
+  top:40px;
+}
+#about{
+  margin-top: 40px;
+
+}
+
+
+#about p{
+  font-size: 12px;
+  color:#8c8c8c;
+  margin-left: 10px;
+  display: inline-block;;
+  width:100px;
+
+}
+#about a img {
+  display: inline-block;
+  position: relative;
+  bottom:20px;
+
+
+}
+#about button a{
+  text-decoration: none;
+  color:#000;
+}
+ #user{
+   width:50px;
+   height:50px;
+ }
+
+
+
+
+footer{
+  font-size: 0.75em;
+  clear:both;
+  text-align: center;
+  padding-top: 50px;
+  color:#ccc;
+
+}
+
+/*******************************
+Home Page
+********************************/
+
+#gallery{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  left:50px;
+
+}
+
+#gallery li{
+  float:left;
+  width:35%;
+  margin:2.5%;
+  background-color: #f5f5f5;
+  color:#bdc3c7;
+
+}
+#gallery li a {
+  text-decoration: none;
+}
+#gallery li a p{
+  font-size: 0.75em;
+  margin:0;
+  padding:3%;
+  font-size: 0.9em;
+  color:#94b8b8;
+  text-align: center;
+}
+#gallery li img {
+  height:200px;
+  width:280px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+/*******************************
+What is Minimalism Page
+********************************/
+#minimalismpage h2{
+  font-family: cursive;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+#minimalismpage p,#minimalismpage ul {
+  color:#94b8b8;
+  margin-left: 60px;
+  margin-top: 20px;
+  width:600px;
+  line-height: 20px;
+}
+#minimalismpage  a{
+  margin-left: 70px;
+  margin-top: 30px;
+  color:#476b6b;
+}
+
+
+
+
+/*******************************
+Contact Page
+********************************/
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contact-info li, #primary p{
+  margin-left: 20px;
+  color: #94b8b8;y
+}
+.contact-info a{
+  display: block;
+  min-width: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  text-decoration: none;
+  color: #94b8b8;
+
+}
+.contact-info li.phone a{
+  background-image: url(../images/phone.png);
+}
+.contact-info li.mail a{
+  background-image: url(../images/mail.png);
+}
+.contact-info li.twitter a{
+  background-image: url(../images/twitter2.png);
+}
+#primary{
+  margin-left: 40px;
+  margin-top: 100px;
+}
+#secondary{
+  margin-top: 100px;
+}
+#primary h2, #secondary h2{
+  font-family: cursive;
+}
+@media screen and (min-width: 480px){
+
+#primary{
+  width:50%;
+  float:left;
+}
+#secondary{
+  width: 40%;
+  float:right;
+}
+}
+
+/*************************************
+Video Page , Blogs Page , Books Page
+**************************************/
+
+#videospage h2{
+  font-family: cursive;
+  margin-top: 100px;
+  margin-left: 80px;
+
+}
+.placeholder{
+
+  margin-left: 100px;
+}
+.placeholder h3 a{
+  text-decoration: none;
+  color: #000;
+}
+
+.placeholder img{
+  height: 100px;
+  width: 150px;
+  display: inline;
+  position: relative;
+  top: 20px;
+}
+.placeholder div{
+  height: 100px;
+  width:400px;
+  margin-left: 10px;
+  display: inline-block;
+  margin-bottom: 100px;
+
+}
+.placeholder div p{
+  color: #94b8b8;
+  display: inline;
+  font-size: 14px;
+}
+.placeholder  button{
+  position: relative;
+  top:15px;
+  right:30px;
+
+}
+.placeholder button a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+/*******************************
+Plan Page
+********************************/
+
+
+
+
+/*******************************
+About Page
+********************************/
+#aboutpage{
+  margin-left: 60px;
+  margin-top: 50px;
+}
+#aboutpage h2{
+  font-family: cursive;
+
+}
+#aboutpage p{
+  margin-top: 30px;
+  margin-left: 30px;
+  color:#94b8b8;
+}
+
+
+/*******************************
+Inspiration Page
+********************************/
+
+
+
+
+
+/*******************************
+Background Page
+********************************/
